@@ -386,7 +386,7 @@ var SimplePanel = function SimplePanel(_a) {
     className: styles.textBox
   }, options.showSeriesCount && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: Object(emotion__WEBPACK_IMPORTED_MODULE_2__["css"])(templateObject_2 || (templateObject_2 = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__makeTemplateObject"])(["\n              font-size: ", ";\n            "], ["\n              font-size: ", ";\n            "])), theme.typography.size[options.seriesCountSize])
-  }, "Number of series: ", data.series.length), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, "Text option value: ", options.text)));
+  }, "Number of series: ", data.series.length), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, "Text option valuesdfafsdfatbagarbgsrhsebhe: ", options.text)));
 };
 var getStyles = Object(_grafana_ui__WEBPACK_IMPORTED_MODULE_3__["stylesFactory"])(function () {
   return {

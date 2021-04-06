@@ -42,7 +42,7 @@ export const SimplePanel: React.FC<Props> = ({ options, data, width, height }) =
             Number of series: {data.series.length}
           </div>
         )}
-        <div>Text option value: {options.text}</div>
+        <div>Text option valuesdfafsdfatbagarbgsrhsebhe: {options.text}</div>
       </div>
     </div>
   );
