@@ -4,6 +4,7 @@ import { SimpleOptions } from 'types';
 import { css, cx } from 'emotion';
 //import { stylesFactory, useTheme } from '@grafana/ui';
 import { stylesFactory } from '@grafana/ui';
+import Generador from 'components/generador';
 
 interface Props extends PanelProps<SimpleOptions> {}
 
@@ -20,8 +21,7 @@ export const SimplePanel: React.FC<Props> = ({ options, data, width, height }) =
         `
       )}
     >
-
-
+      <Generador/>
     </div>
   );
 };
