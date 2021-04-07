@@ -1,6 +1,10 @@
 import React from 'react'
 
-const voltaje = () => {
+type data = {
+  voltaje: number
+}
+
+const voltaje = ({ voltaje }: data) => {
     return(
         <g id="g599" transform="translate(1.624 .927)">
           <text
@@ -27,7 +31,7 @@ const voltaje = () => {
               fontSize="9.878"
               fontWeight="bold"
             >
-              420
+              { voltaje }
             </tspan>
           </text>
           <g id="g2956" transform="matrix(1.1918 0 0 1.0573 .381 -3.89)">

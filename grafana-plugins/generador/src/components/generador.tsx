@@ -1131,13 +1131,15 @@ const generador = () => {
           d="M393.72 8.887h18.007l4.945-4.878 67.486-.134 4.944 8.954h18.174"
         ></path>
 
-        <Voltaje/>
+        
           
         <Image/>
       
         <Temp/>
 
         <Nivel/>
+
+        <Voltaje/>
 
         <Alarmas/>
 

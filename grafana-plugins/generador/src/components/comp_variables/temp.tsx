@@ -1,6 +1,10 @@
 import React from 'react'
 
-const temp = () =>{
+type data = {
+  temp: number
+}
+
+const temp = ({temp}:data) =>{
     return(
         <g id="g577" transform="translate(2.472 2.12)">
           <text
@@ -28,7 +32,7 @@ const temp = () =>{
               fontSize="11.289"
               fontWeight="bold"
             >
-              20
+              {temp}
             </tspan>
           </text>
           <text
@@ -54,10 +58,7 @@ const temp = () =>{
               fontSize="4.586"
             >
               <tspan id="tspan3013" fontSize="5.644">
-                T
-              </tspan>
-              <tspan id="tspan3011" fontSize="5.644">
-                EMPERATURA
+                TEMPERATURA
               </tspan>
             </tspan>
           </text>

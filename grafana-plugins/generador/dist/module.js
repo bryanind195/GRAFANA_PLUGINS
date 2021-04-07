@@ -399,7 +399,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 
-var alarmas = function alarmas() {
+var alarmas = function alarmas(_a) {
+  var dato = _a.dato;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
     id: "g851"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
@@ -1991,7 +1992,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 
-var datos = function datos() {
+var datos = function datos(_a) {
+  var fase = _a.fase,
+      sistema = _a.sistema,
+      marca = _a.marca,
+      modelo = _a.modelo,
+      ubicacion = _a.ubicacion;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
     id: "g1265"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
@@ -2131,7 +2137,7 @@ var datos = function datos() {
     strokeWidth: "0.265",
     fontFamily: "BankGothic Lt BT",
     fontSize: "5.644"
-  }, "A")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+  }, fase)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
     id: "text800-5-7",
     x: "336.29",
     y: "43.039",
@@ -2151,7 +2157,7 @@ var datos = function datos() {
     strokeWidth: "0.265",
     fontFamily: "BankGothic Lt BT",
     fontSize: "5.644"
-  }, "1")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+  }, sistema)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
     id: "text800-0-7",
     x: "336.204",
     y: "52.177",
@@ -2171,7 +2177,7 @@ var datos = function datos() {
     strokeWidth: "0.265",
     fontFamily: "BankGothic Lt BT",
     fontSize: "5.644"
-  }, "HIMOINSA")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+  }, marca)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
     id: "text800-5-8-8",
     x: "335.961",
     y: "61.373",
@@ -2191,7 +2197,7 @@ var datos = function datos() {
     strokeWidth: "0.265",
     fontFamily: "BankGothic Lt BT",
     fontSize: "5.644"
-  }, "HMW-810 T6")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+  }, modelo)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
     id: "text800-9-4",
     x: "335.954",
     y: "69.984",
@@ -2211,7 +2217,7 @@ var datos = function datos() {
     strokeWidth: "0.265",
     fontFamily: "BankGothic Lt BT",
     fontSize: "5.644"
-  }, "PATIO GEN")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+  }, ubicacion)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
     id: "text800-7-5",
     x: "288.061",
     y: "33.33",
@@ -2508,7 +2514,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 
-var nivel = function nivel() {
+var nivel = function nivel(_a) {
+  var nivel = _a.nivel;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
     id: "g547"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
@@ -2589,7 +2596,7 @@ var nivel = function nivel() {
     fontFamily: "BankGothic Lt BT",
     fontSize: "12.491",
     fontWeight: "bold"
-  }, "50")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+  }, nivel)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
     id: "text5947",
     x: "178.722",
     y: "99.925",
@@ -2655,7 +2662,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 
-var temp = function temp() {
+var temp = function temp(_a) {
+  var temp = _a.temp;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
     id: "g577",
     transform: "translate(2.472 2.12)"
@@ -2684,7 +2692,7 @@ var temp = function temp() {
     fontFamily: "BankGothic Lt BT",
     fontSize: "11.289",
     fontWeight: "bold"
-  }, "20")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+  }, temp)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
     id: "text21805",
     x: "194.035",
     y: "21.416",
@@ -2709,10 +2717,7 @@ var temp = function temp() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tspan", {
     id: "tspan3013",
     fontSize: "5.644"
-  }, "T"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tspan", {
-    id: "tspan3011",
-    fontSize: "5.644"
-  }, "EMPERATURA"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+  }, "TEMPERATURA"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
     id: "g2977",
     transform: "matrix(1.0566 0 0 1.0053 -15.093 -3.151)"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
@@ -2871,7 +2876,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 
-var voltaje = function voltaje() {
+var voltaje = function voltaje(_a) {
+  var voltaje = _a.voltaje;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
     id: "g599",
     transform: "translate(1.624 .927)"
@@ -2899,7 +2905,7 @@ var voltaje = function voltaje() {
     fontFamily: "BankGothic Lt BT",
     fontSize: "9.878",
     fontWeight: "bold"
-  }, "420")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+  }, voltaje)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
     id: "g2956",
     transform: "matrix(1.1918 0 0 1.0573 .381 -3.89)"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
@@ -4022,7 +4028,7 @@ var generador = function generador() {
     stroke: "#00bec4",
     strokeWidth: "0.265",
     d: "M393.72 8.887h18.007l4.945-4.878 67.486-.134 4.944 8.954h18.174"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_comp_variables_voltaje__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_comp_variables_image__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_comp_variables_temp__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_comp_variables_nivel__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_comp_variables_alarmas__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_comp_variables_control__WEBPACK_IMPORTED_MODULE_7__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_comp_variables_datos__WEBPACK_IMPORTED_MODULE_6__["default"], null)));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_comp_variables_image__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_comp_variables_temp__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_comp_variables_nivel__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_comp_variables_voltaje__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_comp_variables_alarmas__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_comp_variables_control__WEBPACK_IMPORTED_MODULE_7__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_comp_variables_datos__WEBPACK_IMPORTED_MODULE_6__["default"], null)));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (generador);

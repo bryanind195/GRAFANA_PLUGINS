@@ -1,6 +1,10 @@
 import React from 'react'
 
-const nivel = () =>{
+type data = {
+  nivel: number;
+}
+
+const nivel = ({nivel}:data) =>{
     return(
         <g id="g547">
           <g id="g4002" transform="matrix(1.1285 0 0 1.0546 -10.073 3.874)">
@@ -85,7 +89,7 @@ const nivel = () =>{
                 fontSize="12.491"
                 fontWeight="bold"
               >
-                50
+                {nivel}
               </tspan>
             </text>
             <text

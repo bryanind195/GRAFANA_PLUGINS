@@ -1,6 +1,14 @@
 import React from 'react'
 
-const datos = () => {
+type dato = {
+  fase: string;
+  sistema: string;
+  marca: string;
+  modelo: string;
+  ubicacion: string;
+}
+
+const datos = ({ fase, sistema, marca, modelo, ubicacion }: dato) => {
     return (
         <g id="g1265">
         <g id="g645" transform="matrix(1 0 0 .92275 0 .52)">
@@ -157,7 +165,7 @@ const datos = () => {
             fontFamily="BankGothic Lt BT"
             fontSize="5.644"
           >
-            A
+            {fase}
           </tspan>
         </text>
         <text
@@ -180,7 +188,7 @@ const datos = () => {
             fontFamily="BankGothic Lt BT"
             fontSize="5.644"
           >
-            1
+            {sistema}
           </tspan>
         </text>
         <text
@@ -203,7 +211,7 @@ const datos = () => {
             fontFamily="BankGothic Lt BT"
             fontSize="5.644"
           >
-            HIMOINSA
+            {marca}
           </tspan>
         </text>
         <text
@@ -226,7 +234,7 @@ const datos = () => {
             fontFamily="BankGothic Lt BT"
             fontSize="5.644"
           >
-            HMW-810 T6
+            {modelo}
           </tspan>
         </text>
         <text
@@ -249,7 +257,7 @@ const datos = () => {
             fontFamily="BankGothic Lt BT"
             fontSize="5.644"
           >
-            PATIO GEN
+            {ubicacion}
           </tspan>
         </text>
         <text

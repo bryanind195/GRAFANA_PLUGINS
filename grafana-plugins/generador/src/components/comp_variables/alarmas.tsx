@@ -1,7 +1,29 @@
 import React from 'react'
 
-const alarmas = () => {
-    return (
+type Estado = {
+  on: boolean;
+  off: boolean;
+  trip: boolean;
+  class: string;
+}
+
+type Alarmas = {
+  paro_emergencia: Estado;
+  baja_presion_combustible: Estado;
+  alta_temperatura: Estado;
+  bajas_revoluciones: Estado;
+  altas_revoluciones: Estado;
+  falla_breaker_principal: Estado;
+  bajo_voltaje_generador: Estado;
+  alto_voltaje_generador: Estado;
+}
+
+type Dato = {
+  dato: Alarmas
+}
+
+const alarmas = ({ dato }: Dato) => {  
+  return (
         <g id="g851">
           <g
             id="g3982"
